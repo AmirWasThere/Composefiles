@@ -1,6 +1,7 @@
 #Minio Compose File in Docker
 #Change user and Pw b4 running
-
+#Just use:
+   #docker-compose up -d
 version: '3.8'
 
 services:
