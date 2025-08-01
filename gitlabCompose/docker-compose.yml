@@ -15,7 +15,7 @@ services:
         gitlab_rails['initial_root_password'] = '${GITLAB_ROOT_PASSWORD}'
         gitlab_rails['gitlab_shell_ssh_port'] = ${GITLAB_SSH_PORT}
         letsencrypt['enable'] = true
-        letsencrypt['contact_emails'] = ['amirhebrahimzader@gmail.com']
+        letsencrypt['contact_emails'] = ['heyThisIsMyMail@example.com']
     ports:
       - '443:443'
       - '80:80'
