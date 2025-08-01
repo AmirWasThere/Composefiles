@@ -37,3 +37,8 @@ services:
     volumes:
       - '/var/run/docker.sock:/var/run/docker.sock'
       - './gitlab-runner/config:/etc/gitlab-runner'
+
+
+
+#Hints: first start gitlab, then runner; register runner manually via token, tags, etc.
+#then u can use it for ur cicd and ENJOY.
